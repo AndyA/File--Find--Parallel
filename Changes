@@ -15,3 +15,7 @@ Revision history for File-Find-Parallel
 
 0.50    2007-11-12
         Added missing use File::Spec
+
+0.51    2007-11-14
+        Removed erroneous and unnecessary close $dh. Thanks to Peter
+        Dintelmann for spotting it.

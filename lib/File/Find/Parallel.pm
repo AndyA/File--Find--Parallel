@@ -50,7 +50,6 @@ sub want_iterator {
             if ( -d $abs ) {
                 if ( opendir my $dh, $abs ) {
                     $got{$_}++ for grep { $_ !~ /^[.][.]?$/ } readdir $dh;
-                    close $dh;
                 }
                 else {
                     carp "Can't read $abs ($!)";
