@@ -9,7 +9,6 @@ To install this module, run the following commands:
     make test
     make install
 
-
 DEPENDENCIES
 
 None.
