@@ -1,5 +1,7 @@
+Build.PL
 Changes
 examples/lncopies
+inc/MyBuilder.pm
 lib/File/Find/Parallel.pm
 Makefile.PL
 MANIFEST
