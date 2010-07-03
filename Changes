@@ -19,3 +19,7 @@ Revision history for File-Find-Parallel
 0.51    2007-11-14
         Removed erroneous and unnecessary close $dh. Thanks to Peter
         Dintelmann for spotting it.
+
+0.52    2010-07-03
+        Remove dependency on File::Tempdir (#59019, thanks to Alan
+        Barrett).
