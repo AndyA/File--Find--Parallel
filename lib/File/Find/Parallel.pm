@@ -5,7 +5,7 @@ use strict;
 use Carp;
 use File::Spec;
 
-our $VERSION = '0.52';
+our $VERSION = '0.53';
 
 sub new {
     my $class = shift;
@@ -81,7 +81,7 @@ File::Find::Parallel - Traverse a number of similar directories in parallel
 
 =head1 VERSION
 
-This document describes File::Find::Parallel version 0.52
+This document describes File::Find::Parallel version 0.53
 
 =head1 SYNOPSIS
 
