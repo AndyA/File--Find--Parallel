@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use File::Tempdir;
+use File::Temp;
 use File::Path;
 use File::Spec;
 use File::Find::Parallel;
@@ -103,9 +103,9 @@ for my $test ( @schedule ) {
 
     # Setup
     for my $create ( @{ $test->{create} } ) {
-        my $td = File::Tempdir->new();
+        my $td = File::Temp->newdir();
         push @temp, $td;    # stop it going out of scope
-        my $root = $td->name;
+        my $root = $td->dirname;
         $ffp->add_dirs( $root );
 
         # Make directories

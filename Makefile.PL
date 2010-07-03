@@ -23,8 +23,8 @@ my %ARGS = (
   PL_FILES      => {},
   EXE_FILES     => [],
   PREREQ_PM     => {
-    'Test::More'    => 0,
-    'File::Tempdir' => '0.02',
+    'Test::More' => 0,
+    'File::Temp' => '0.22',
   },
   dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
   clean => { FILES    => 'File-Find-Parallel-*' },

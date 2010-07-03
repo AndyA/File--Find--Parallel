@@ -298,7 +298,7 @@ are built.
 
 =head1 DEPENDENCIES
 
-The tests require L<File::Tempdir> and optionally L<Test::Pod::Coverage>
+The tests require L<File::Temp> and optionally L<Test::Pod::Coverage>
 and L<Test::Pod>.
 
 The L<lncopies> script requires L<Getopt::Long> and L<Pod::Usage>.
